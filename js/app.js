@@ -40,7 +40,7 @@ for(let item of buttons){
                 screen.value = screenValue;
                 return;
             case '=':
-                screen.value = eval(screenValue);
+                screen.value = math.evaluate(screen.value);
                 return;
             case '⌫':
                 screenValue = screenValue.substring(0, screen.value.length -1);
