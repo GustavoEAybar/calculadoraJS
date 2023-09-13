@@ -18,11 +18,11 @@ body {
     padding: 40px;
     border-radius: 50px;
     background: #e9e9e9;
-    box-shadow: 20px 20px 60px #c6c6c6, -20px -20px -60px #ffffff;
+    box-shadow: 20px 20px 60px #c6c6c6, -20px -20px 60px #ffffff;
 }
 
 .calculadora input {
-    width: 90%;
+    width: 93%;
     height: 45px;
     font-size: 24px;
     font-weight: 500;
@@ -33,7 +33,7 @@ body {
     outline: 0;
     border-radius: 20px;
     background: #e9e9e9;
-    box-shadow: -5px -7px -9px #fff inset, 5px 11px 17px -13px #000 inset;
+    box-shadow: -5px -7px 9px #fff inset, 5px 11px 17px -13px #000 inset;
 }
 
 button {
@@ -48,5 +48,13 @@ button {
     outline: 0;
     cursor: pointer;
     box-shadow: -6px -6px 9px #fff, 11px 11px 21px 8px #000;
-    
+
+}
+
+button:hover{
+    background: #d6d6d6;
+}
+
+.color {
+    color: #ff4500;
 }
